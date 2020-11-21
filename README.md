@@ -1,2 +1,2 @@
 # startup
- build startup app
+ build error page using react native
