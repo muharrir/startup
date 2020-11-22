@@ -1,23 +1,23 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {ILError} from '../../assets/Illustration';
+import {ILRefund2} from '../../assets/Illustration';
 import Button from '../../components/Button';
 
-export default function ErrorPage() {
+export default function RefundPage2() {
   return (
     <View style={styles.page}>
       <View style={styles.image}>
-        <ILError />
+        <ILRefund2 />
       </View>
       <View style={styles.contentWrapper}>
         <View style={styles.content}>
-          <Text style={styles.title}>Opps! What's This?</Text>
+          <Text style={styles.title}>New Customers</Text>
           <Text style={styles.desc}>
-            Don’t panic and put yourself together because this page means
-            doesn’t exist anymore
+            Send your best welcome message to your new customer and get them buy
+            your products
           </Text>
         </View>
-        <Button title="Back to Home" />
+        <Button title="Send Message" />
       </View>
     </View>
   );
