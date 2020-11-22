@@ -1,2 +1,2 @@
 # startup
- build error page using react native
+ build ErrorPage, RefundPage, RefundPage2 using react native
